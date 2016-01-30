@@ -1,0 +1,165 @@
+* {
+	font-size: 18px;
+}
+
+body {
+	background: none repeat scroll 0 0 #fff; 
+	color: #222;
+	margin: 0;
+}
+
+a { 
+	color: #222;
+	text-decoration: none;
+}
+
+a:hover {
+	background: none repeat scroll 0 0 #fff;
+	color: #222;
+	margin:0;
+}
+
+a.button:hover {
+	text-decoration: none;
+}
+
+ul.nav {
+	float: right;
+	margin-right: 25px;
+}
+
+ul.nav li {
+	list-style: none;
+	display: inline-block;
+	text-align: right;/*moves to right of page*/
+	padding: 5px 10px 0 0; /*spacing around items*/
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+
+
+.fa {/*positioning and color/opacity of font awesome icons*/
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;
+}
+
+.fa {
+	display: inline-block;
+	font-family: FontAwesome;
+}
+
+.fa:hover {
+	opacity: 1.0;
+}
+
+span.share {
+	background-color: #f2f2f2;
+	padding: 7px 15px;
+	cursor: default;
+	position: relative;
+	top: -3px;
+}
+
+span.share:hover {
+	background-color: #e1e1e1;
+}
+
+img.profile_img {
+	border-radius: 25px;
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 5px;
+}
+
+div.searchBox {
+	position:absolute;/*element can be placed anywehre on page*/
+	margin-top: 75px;
+	width: 100%;
+}
+
+div.searchBox img { /*more search box positioning*/
+	padding: 142px 0 24px 0;
+	display: block;/* block not inline*/
+	margin: 0 auto;
+}
+
+.searchBox input {/*more specific font and color style for search box*/
+	width: 600px;
+	margin: 0 auto;
+	padding: 8px;
+	border: 1px solid #d9d9d9;
+	font-size: 16px;
+	border-radius: 5px;
+	display: block; /*centers search box by block element*/
+}
+
+.searchBox input:focus {
+	border-color: #f5f5f5;
+}
+
+div.buttons {
+	text-align: center;
+	padding-left: 0;
+}
+
+div.buttons button {
+	background-color: #f5f5f5;
+	border: 1px solid rgba(0, 0, 0, 0.1);/* rgba to change transparency*/
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 27px; /*vertical spacing*/
+	margin: 17px 6px;
+	padding: 0 12px;
+	display: inline-block;/*inline with eachother but both a bloc*/
+	cursor: pointer;/*tirns into a hand!*/
+}
+
+div.buttons .button:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px rgba(0,0,0,0.1);
+	color: #333;
+	cursor: default;
+}
+
+div.bottom {
+	bottom: 0 !important; /* is this actually important?*/
+	position: absolute;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+
+ul.left, ul.right {
+	margin: 10px;
+}
+
+ul.left {
+	float: left;
+	padding-left: 20px;
+}
+
+ul.right {
+	float: right;
+	padding-right: 10px;
+}
+
+ul.left li,
+ul.right li {
+	list-style: none;
+	display: inline;
+	line-height: 40px;
+}
+
+ul.left li a,
+ul.right li a {
+	color: #666;
+	margin: 2px 10px 0;
+	letter-spacing: 0.1px;
+	font-size: 18px;
+}
