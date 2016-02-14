@@ -1,3 +1,5 @@
+
+
 * {
 	font-size: 18px;
 }
@@ -23,12 +25,12 @@ a.button:hover {
 	text-decoration: none;
 }
 
-ul.nav {
+ul.navigation {
 	float: right;
 	margin-right: 25px;
 }
 
-ul.nav li {
+ul.navigation li {
 	list-style: none;
 	display: inline-block;
 	text-align: right;/*moves to right of page*/
@@ -101,6 +103,7 @@ div.searchBox img { /*more search box positioning*/
 	border-color: #f5f5f5;
 }
 
+
 div.buttons {
 	text-align: center;
 	padding-left: 0;
@@ -135,6 +138,7 @@ div.bottom {
 	border-top: 1px solid #e4e4e4;
 }
 
+
 ul.left, ul.right {
 	margin: 10px;
 }
@@ -163,3 +167,64 @@ ul.right li a {
 	letter-spacing: 0.1px;
 	font-size: 18px;
 }
+
+@media (max-width: 650px){
+	.searchBox input {
+		width:80%;
+	}
+}
+
+	@media (max-width: 608px){
+		ul.right{
+			padding-left: 20px;
+		}
+	}
+
+	@media (max-width: 608px) {
+	ul.right, ul.left {
+		float: left;
+		
+	}
+}
+
+	@media (max-width: 480px) {
+		ul.navigation {
+			padding-left: 0px;
+			padding-right: 25px;
+		}
+		ul.navigation li {
+			margin-right: 0;
+			padding: 2px;
+		}
+}
+
+	@media (max-width: 380px) {
+		ul.navigation li {
+			font-size: 10px;
+			padding: 1px;
+			
+		}
+	}
+
+	@media (max-width: 370px) {
+		ul.navigation {
+			padding: 0px;
+		}
+}
+	@media (max-width: 350px) {
+		*{
+			font-size:13px;
+		}
+	}
+	
+	@media (max-width: 314px) {
+	ul.right, ul.left {
+			padding: 0px;
+		}
+	}
+
+	@media (max-width: 314px) {
+		div.buttons button {
+			padding: 0px;
+		}
+	}
